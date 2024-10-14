@@ -1,0 +1,16 @@
+fastapi
+pydantic
+uvicorn
+nltk
+scikit-learn
+transformers
+torch
+datasets
+faiss-gpu
+sentence-transformer
+requests
+io
+bitsandbytes
+pil
+rank_bm25
+duckduckgo_search
