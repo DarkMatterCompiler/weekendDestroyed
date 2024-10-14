@@ -41,3 +41,21 @@ The pipeline is built using the following core components:
 - **Scalable**: Can be integrated with large document corpora for efficient searching and answering.
 - **Flexible query handling**: Breaks down complex queries into smaller parts to provide more accurate answers.
 - **Web Integration**: Accessible through a FastAPI web app for querying and results display.
+
+
+
+# Image Captioning and Search Pipeline
+
+This project integrates multiple AI models and a web search API to process images, generate search queries, and retrieve relevant information. It demonstrates how various AI models and APIs can be combined to create a system that understands visual content, interprets user queries, and fetches related information from the internet.
+
+## Overview of the Pipeline
+
+The pipeline begins by using the **MiniCPM-V-2** model to generate a caption for a given image. This caption describes the content of the image in a textual format. Following that, the **Qwen2.5-1.5B-Instruct** model takes both the caption and any additional user input to create a relevant search query. This query is then used to interact with the **DuckDuckGo Search API**, which retrieves both text-based and image-based search results from the web.
+
+The system is designed to demonstrate how different AI models can work together to understand images, create useful search queries, and retrieve relevant results, making it applicable for various domains such as e-commerce, content discovery, and more complex AI-driven applications.
+
+## Features:
+- Image captioning using MiniCPM-V-2 model
+- Query generation based on image captions and user input via Qwen2.5-1.5B-Instruct model
+- Text and image search through DuckDuckGo Search API
+- Integration of AI models and external APIs for comprehensive information retrieval
