@@ -18,7 +18,7 @@ The system is designed to demonstrate how different AI models can work together 
 
 
 # Retrieval-Augmented Generation (RAG) Pipeline
-
+Video of working frontend and backend: https://drive.google.com/file/d/1uRNTHi2F0sX6i5pd6RinDOQyrf1NZ83f/view?usp=sharing
 This repository contains the implementation of a Retrieval-Augmented Generation (RAG) pipeline that uses a combination of document retrieval and natural language generation to answer user queries based on a given corpus of documents. It is integrated with a FastAPI-based web app for query processing and response generation.
 
 ## Table of Contents
