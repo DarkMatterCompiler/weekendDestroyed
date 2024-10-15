@@ -85,8 +85,10 @@ https://drive.google.com/file/d/16ElHYbes6Fl5Y5mk671tFUL8Jc2jhZkH/view?usp=shari
 ## Video of inference query
 
 ## Video of temporal query
-
-# Video of comparison query
+https://drive.google.com/file/d/1tN8hQ6Y-yqi7RuYCuKdynyW-hrUr7PqX/view?usp=sharing
+## Video of comparison query
+https://drive.google.com/file/d/1DGBq7Qi4aLFn4bCaJfGxnEBFGHDJilPD/view?usp=sharing
+## RAG Pipeline
 This repository contains the implementation of a Retrieval-Augmented Generation (RAG) pipeline that uses a combination of document retrieval and natural language generation to answer user queries based on a given corpus of documents. It is integrated with a FastAPI-based web app for query processing and response generation.
 
 ## Table of Contents
