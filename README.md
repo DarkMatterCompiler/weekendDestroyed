@@ -80,8 +80,13 @@ That’s it! You now have a fully functional web app for querying images using B
 
 ## Video of working frontend and backend: 
 https://drive.google.com/file/d/1uRNTHi2F0sX6i5pd6RinDOQyrf1NZ83f/view?usp=sharing
-## Video of query class pipeline
-https://drive.google.com/file/d/1EQHnANWq1dYGIUkdEfeREBbX4tB5VJC9/view?usp=sharing
+## Video of query classification pipeline
+https://drive.google.com/file/d/16ElHYbes6Fl5Y5mk671tFUL8Jc2jhZkH/view?usp=sharing
+## Video of inference query
+
+## Video of temporal query
+
+# Video of comparison query
 This repository contains the implementation of a Retrieval-Augmented Generation (RAG) pipeline that uses a combination of document retrieval and natural language generation to answer user queries based on a given corpus of documents. It is integrated with a FastAPI-based web app for query processing and response generation.
 
 ## Table of Contents
