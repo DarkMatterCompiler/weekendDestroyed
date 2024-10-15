@@ -83,7 +83,7 @@ https://drive.google.com/file/d/1uRNTHi2F0sX6i5pd6RinDOQyrf1NZ83f/view?usp=shari
 ## Video of query classification pipeline
 https://drive.google.com/file/d/16ElHYbes6Fl5Y5mk671tFUL8Jc2jhZkH/view?usp=sharing
 ## Video of inference query
-
+https://drive.google.com/file/d/1ZlEAy_WU5UxOaRLBvWZv4wVzNe4T7mil/view?usp=sharing
 ## Video of temporal query
 https://drive.google.com/file/d/1tN8hQ6Y-yqi7RuYCuKdynyW-hrUr7PqX/view?usp=sharing
 ## Video of comparison query
