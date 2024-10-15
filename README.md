@@ -16,6 +16,63 @@ The system is designed to demonstrate how different AI models can work together 
 - Text and image search through Brave Search API
 - Integration of AI models and external APIs for comprehensive information retrieval
 
+## Prerequisites
+
+To run this app, you will need:
+
+- A Google account (for accessing Colab)
+- Python 3.8+
+- Streamlit installed (`pip install streamlit`)
+- `ngrok` installed (`pip install pyngrok`)
+- Brave API token (your token is here: `BSAic7Uf6UTCyDixegz4eOnERiS-M4P`)
+
+## How to Run the Code
+
+There are two Jupyter notebook files to be run in Colab:
+
+1. **Image Description MiniCPM.ipynb** 
+2. **Search Query Qwen.ipynb**
+
+### Step 1: Running the Colab Notebooks
+
+1. Upload the two notebook files (`Image Description MiniCPM.ipynb` and `Search Query Qwen.ipynb`) to Google Colab.
+2. Open and run both notebooks in Colab. After execution, each notebook will create a Colab server and return an ngrok URL.
+3. Copy the ngrok URLs from the Colab outputs.
+
+### Step 2: Update `image-query-app.py`
+
+1. Open the `image-query-app.py` file in your local environment.
+2. Paste the two ngrok URLs generated in the previous step into the appropriate placeholders inside `image-query-app.py`.
+   - One URL for the image description service
+   - Another URL for the search query service
+
+### Step 3: Run the Web App
+
+1. Open a terminal or command prompt.
+2. Navigate to the directory where the `image-query-app.py` file is located.
+3. Run the web app using Streamlit:
+
+   ```bash
+   streamlit run image-query-app.py
+   ```
+
+4. Your default browser will open with the web app interface.
+
+### Step 4: Using the Web App
+
+1. In the browser interface, you will be prompted to enter:
+   - An image URL
+   - A search query
+   - Your Brave API token (you can use the provided token: `BSAic7Uf6UTCyDixegz4eOnERiS-M4P`)
+   
+2. After entering the required inputs, press the "Submit" button.
+3. The app will connect to the Colab servers, process your request, and return the final output as a markdown file.
+
+---
+
+That’s it! You now have a fully functional web app for querying images using Brave API and Colab-based models.
+
+
 
 # Retrieval-Augmented Generation (RAG) Pipeline
 
@@ -137,3 +194,5 @@ Your local app will now send requests to the four different FastAPI endpoints ho
 ---
 
 This guide should help you manage the integration of multiple Colab notebooks with your local app using ngrok.
+
+
