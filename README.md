@@ -6,7 +6,7 @@ This project integrates multiple AI models and a web search API to process image
 
 ## Overview of the Pipeline
 
-The pipeline begins by using the **MiniCPM-V-2** model to generate a caption for a given image. This caption describes the content of the image in a textual format. Following that, the **Qwen2.5-1.5B-Instruct** model takes both the caption and any additional user input to create a relevant search query. This query is then used to interact with the **DuckDuckGo Search API**, which retrieves both text-based and image-based search results from the web.
+The pipeline begins by using the **MiniCPM-V-2** model to generate a caption for a given image. This caption describes the content of the image in a textual format. Following that, the **Qwen2.5-1.5B-Instruct** model takes both the caption and any additional user input to create a relevant search query. This query is then used to interact with the **Brave Search API**, which retrieves both text-based and image-based search results from the web. The pipeline is connected by using 2 google colab files as servers through the FastAPI and ngrok. The web app is created using streamlit.
 
 The system is designed to demonstrate how different AI models can work together to understand images, create useful search queries, and retrieve relevant results, making it applicable for various domains such as e-commerce, content discovery, and more complex AI-driven applications.
 
