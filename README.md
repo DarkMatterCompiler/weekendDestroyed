@@ -1,3 +1,6 @@
+# PS1 Google Lens Pro Max
+Video link: https://drive.google.com/file/d/1L-q7F59f1DgNA-YzworVFT4NaC4HFGJK/view?usp=sharing
+
 
 # Retrieval-Augmented Generation (RAG) Pipeline
 
