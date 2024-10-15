@@ -13,7 +13,7 @@ The system is designed to demonstrate how different AI models can work together 
 ## Features:
 - Image captioning using MiniCPM-V-2 model
 - Query generation based on image captions and user input via Qwen2.5-1.5B-Instruct model
-- Text and image search through DuckDuckGo Search API
+- Text and image search through Brave Search API
 - Integration of AI models and external APIs for comprehensive information retrieval
 
 
