@@ -36,8 +36,9 @@ There are two Jupyter notebook files to be run in Colab:
 ### Step 1: Running the Colab Notebooks
 
 1. Upload the two notebook files (`Image Description MiniCPM.ipynb` and `Search Query Qwen.ipynb`) to Google Colab.
-2. Open and run both notebooks in Colab. After execution, each notebook will create a Colab server and return an ngrok URL.
-3. Copy the ngrok URLs from the Colab outputs.
+2. Open and run both notebooks in Colab. One of the colab notebook requires this huggingface api key: `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`
+3. After execution, each notebook will create a Colab server and return an ngrok URL.
+4. Copy the ngrok URLs from the Colab outputs.
 
 ### Step 2: Update `image-query-app.py`
 
