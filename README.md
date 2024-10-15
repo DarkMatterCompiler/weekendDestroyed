@@ -48,6 +48,14 @@ There are two Jupyter notebook files to be run in Colab:
    - One URL for the image description service
    - Another URL for the search query service
 
+You will need to update the two URLs in your local file based on the URLs generated from each of the Colab notebooks. Update the following variables:
+
+```python
+compurl = "https://<new-ngrok-url-1>.ngrok-free.app//rag_pipeline"  # URL from notebook 1
+classurl = "https://<new-ngrok-url-2>.ngrok-free.app//web_search"  # URL from notebook 2
+```
+Replace each `<new-ngrok-url-x>` with the ngrok URLs from the respective Colab notebook outputs.
+
 ### Step 3: Run the Web App
 
 1. Open a terminal or command prompt.
