@@ -24,7 +24,8 @@ To run this app, you will need:
 - Python 3.8+
 - Streamlit installed (`pip install streamlit`)
 - `ngrok` installed (`pip install pyngrok`)
-- Brave API token (your token is here: `BSAic7Uf6UTCyDixegz4eOnERiS-M4P`)
+- Brave API token (Aarya's token is here: `BSAic7Uf6UTCyDixegz4eOnERiS-M4P`)
+- Huggingface API token (you can use Shiwang's token: `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`)
 
 ## How to Run the Code
 
